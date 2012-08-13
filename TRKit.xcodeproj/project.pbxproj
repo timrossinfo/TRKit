@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		223BB41615D8FC4600534309 /* UIView+Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Helpers.h"; sourceTree = "<group>"; };
+		223BB41715D8FC4600534309 /* UIView+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helpers.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		223BB3F015D8FB1C00534309 = {
+			isa = PBXGroup;
+			children = (
+				223BB41415D8FC4600534309 /* TRKit */,
+			);
+			sourceTree = "<group>";
+		};
+		223BB41415D8FC4600534309 /* TRKit */ = {
+			isa = PBXGroup;
+			children = (
+				223BB41515D8FC4600534309 /* Categories */,
+			);
+			path = TRKit;
+			sourceTree = "<group>";
+		};
+		223BB41515D8FC4600534309 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				223BB41615D8FC4600534309 /* UIView+Helpers.h */,
+				223BB41715D8FC4600534309 /* UIView+Helpers.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		223BB3F215D8FB1C00534309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 223BB3F515D8FB1C00534309 /* Build configuration list for PBXProject "TRKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 223BB3F015D8FB1C00534309;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		223BB3F715D8FB1C00534309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		223BB3F815D8FB1C00534309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223BB3F515D8FB1C00534309 /* Build configuration list for PBXProject "TRKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223BB3F715D8FB1C00534309 /* Debug */,
+				223BB3F815D8FB1C00534309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 223BB3F215D8FB1C00534309 /* Project object */;
+}
