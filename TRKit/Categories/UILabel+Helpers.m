@@ -11,7 +11,8 @@
 @implementation UILabel (Helpers)
 
 - (void)sizeToFitLabelText {
-    self.width = [self.text sizeWithFont:self.font].width;
+    CGSize textSize = [self.text sizeWithAttributes:@{NSFontAttributeName: self.font}];
+    self.width = textSize.width;
 }
 
 @end
